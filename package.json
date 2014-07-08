@@ -1,0 +1,30 @@
+{
+  "name": "havalidate",
+  "version": "0.0.0",
+  "description": "Validate an HAProxy config file",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^1.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/TJkrusinski/havalidate.git"
+  },
+  "keywords": [
+    "haproxy",
+    "config"
+  ],
+  "author": "TJ Krusinski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TJkrusinski/havalidate/issues"
+  },
+  "homepage": "https://github.com/TJkrusinski/havalidate"
+}
