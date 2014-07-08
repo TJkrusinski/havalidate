@@ -1,13 +1,13 @@
 ## havalidate
 
-Validate an HAProxy config file
+Validate an HAProxy config file. This uses HAProxy to do the validate, just wraps it up in a function. If the config is invalid err will be a string from HAProxy instructing you as to what was wrong in you config.
 
 ### Usage
 
 ```javascript
 var havalidate = require('havalidate');
 
-havalidate('/path/to/config.cfg', function(err, msg){
+havalidate('/path/to/config.cfg', function(err){
   // handle err if invalid
 });
 ```

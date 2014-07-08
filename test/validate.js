@@ -16,7 +16,7 @@ describe('havalidate()', function(){
 
 describe('havalidate()', function(){
   it('validates an haproxy config file', function(d){
-    havalidate(__dirname+'/fixtures/config_bad.cfg', function(err){
+    havalidate(__dirname+'/fixtures/config_bad.cfg', function(err, msg){
       assert.ok(err);
       d();
     });
