@@ -1,6 +1,6 @@
 ## havalidate
 
-Validate an HAProxy config file. This uses HAProxy to do the validate, just wraps it up in a function. If the config is invalid err will be a string from HAProxy instructing you as to what was wrong in you config.
+Validate an HAProxy config file. This uses HAProxy to do the validattion, just wraps it up in a function. If the config is invalid `err` will be a string from HAProxy instructing you as to what was wrong in your config.
 
 ### Usage
 
